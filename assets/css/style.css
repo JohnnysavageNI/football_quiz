@@ -44,3 +44,9 @@ body {
     background-color: hsla(0, 0%, 100%, 0.7);
     padding: 2%;
 }
+
+.answers {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+}

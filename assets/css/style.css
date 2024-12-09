@@ -15,8 +15,27 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0;
     font-family: 'Kanit', sans-serif;
+    line-height: 1.2
+}
+
+.submit-button {
+    text-align: center;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.game-section {
+    text-align: center;
+    background-color: hsla(0, 0%, 100%, 0.7);
+    width: 40%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: grid; 
+    grid-template-columns: repeat; 
+    gap: 20px;
 }
 
 .heading {

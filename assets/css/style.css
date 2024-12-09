@@ -50,3 +50,9 @@ body {
     flex-direction: column; 
     gap: 10px;
 }
+
+.button-style {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsla(263, 82%, 89%, 0.2);
+}

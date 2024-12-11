@@ -35,7 +35,7 @@ let userAnswers = [];
 const questionElement = document.getElementById("question");
 const answerButtons = document.querySelectorAll(".button-style");
 const submitButton = document.querySelector(".submit-button");
-const resultElement = document.getElementById("result");
+
 
 //load question and cycle through questions
 function loadQuestion() {

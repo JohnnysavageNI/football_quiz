@@ -33,3 +33,14 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.querySelectorAll(".button-style");
 const submitButton = document.querySelector(".submit-button");
 const resultElement = document.getElementById("result");
+
+function loadQuestion() {
+    const currentQuestion = quizData[currentQuestionIndex];
+    questionElement.textContent = currentQuestion.question;
+
+    answerButtons.forEach((button, index) => {
+        button.textContent = currentQuestion.options[index];
+        button.classList.remove("selected");
+    });
+}
+

@@ -20,7 +20,7 @@ body {
 }
 
 .button-style.selected {
-    background-color: lightgreen;
+    background-color: rgb(134, 218, 134);
     color: white;
     border: 2px solid darkgreen;
 }

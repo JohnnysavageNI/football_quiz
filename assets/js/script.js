@@ -1,3 +1,4 @@
+//array for questions
 const quizData = [
     {
         question: "Who won the last world cup?",
@@ -26,14 +27,17 @@ const quizData = [
     }
 ];
 
+//variables to store answers and current question
 let currentQuestionIndex = 0; 
 let userAnswers = []; 
 
+//linking to HTML
 const questionElement = document.getElementById("question");
 const answerButtons = document.querySelectorAll(".button-style");
 const submitButton = document.querySelector(".submit-button");
 const resultElement = document.getElementById("result");
 
+//load question and cycle through questions
 function loadQuestion() {
     const currentQuestion = quizData[currentQuestionIndex];
     questionElement.textContent = currentQuestion.question;
@@ -52,6 +56,7 @@ answerButtons.forEach((button) => {
     });
 });
 
+//submit button 
 submitButton.addEventListener("click", () => {
     if (userAnswers[currentQuestionIndex] == null) {
         alert("Oops! No answer selected.");
@@ -66,3 +71,15 @@ submitButton.addEventListener("click", () => {
     }
 });
 
+function showResult() {
+    let correctCount = 0;
+
+    quizData.forEach((question, index) => {
+        if (userAnswers[index] === question.answer) {
+            correctCount++;
+        }
+    });
+
+    resultElement.textContent = `You got ${correctCount} out of ${quizData.length} correct!`;
+    submitButton.disabled = true;
+}

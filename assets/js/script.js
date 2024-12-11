@@ -44,3 +44,10 @@ function loadQuestion() {
     });
 }
 
+answerButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+        answerButtons.forEach((btn) => btn.classList.remove("selected"));
+        button.classList.add("selected");
+        userAnswers[currentQuestionIndex] = parseInt(button.getAttribute("data-value"));
+    });
+});

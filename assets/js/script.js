@@ -80,6 +80,8 @@ function showResult() {
         }
     });
 
-    resultElement.textContent = `You got ${correctCount} out of ${quizData.length} correct!`;
-    submitButton.disabled = true;
+    alert(`You got ${correctCount} out of ${quizData.length} correct!`);
 }
+
+//start the quiz
+loadQuestion();

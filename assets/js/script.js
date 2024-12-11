@@ -81,7 +81,10 @@ function showResult() {
     });
 
     alert(`You got ${correctCount} out of ${quizData.length} correct!`);
+
+    location.reload();
 }
+
 
 //start the quiz
 loadQuestion();

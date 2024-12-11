@@ -51,3 +51,18 @@ answerButtons.forEach((button) => {
         userAnswers[currentQuestionIndex] = parseInt(button.getAttribute("data-value"));
     });
 });
+
+submitButton.addEventListener("click", () => {
+    if (userAnswers[currentQuestionIndex] == null) {
+        alert("Oops! No answer selected.");
+        return;
+    }
+
+    currentQuestionIndex++;
+    if (currentQuestionIndex < quizData.length) {
+        loadQuestion();
+    } else {
+        showResult();
+    }
+});
+

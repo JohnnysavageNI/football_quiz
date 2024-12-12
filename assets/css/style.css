@@ -43,7 +43,7 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     display: grid; 
-    grid-template-columns: repeat; 
+    
     gap: 20px;
 }
 

@@ -31,8 +31,13 @@ This quiz hopes to give users an engaging and enjoyable experience through testi
 
     ![Screenshot of select highlight](assets/images/highlight-answer.png)
 
-    
-    
     - Another form of feedback is the results alert that appears when the quiz is complete. 
 
     ![Screenshot of results](assets/images/results-feedback.png)
+
+# Testing
+
+- All questions were tested to make sure the correct answer is being picked up by the code.
+- All HTML was tested in [W3C validator](https://validator.w3.org/) with one small error. A div ended to be closed.
+- All CSS was tested in [W3C validator](https://jigsaw.w3.org/css-validator/) one error. A grid-template-column was removed.
+- All Javascript was tested in [JSHint](https://jshint.com/). A few warning messages of 'arrow function syntax (=>)' is only available in ES6,

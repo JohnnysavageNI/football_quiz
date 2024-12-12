@@ -58,3 +58,12 @@ This quiz hopes to give users an engaging and enjoyable experience through testi
 Deployment steps from the [Code Institute](https://codeinstitute.net/)
 
 Live link for this project can be found [here](https://johnnysavageni.github.io/football_quiz//)
+
+
+# Credits
+
+- Background image came from [Unsplash](https://unsplash.com/)
+- Icons from [Font Awesome](https://fontawesome.com/)
+- Fonts from [Google Fonts](https://fonts.google.com/)
+- Favicon was generated using [favicon](https://favicon.io/)
+- Starting idea for the project came from this [YouTube video](https://www.youtube.com/watch?v=CqddbIrEM5I)

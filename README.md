@@ -41,3 +41,20 @@ This quiz hopes to give users an engaging and enjoyable experience through testi
 - All HTML was tested in [W3C validator](https://validator.w3.org/) with one small error. A div ended to be closed.
 - All CSS was tested in [W3C validator](https://jigsaw.w3.org/css-validator/) one error. A grid-template-column was removed.
 - All Javascript was tested in [JSHint](https://jshint.com/). A few warning messages of 'arrow function syntax (=>)' is only available in ES6,
+
+# Deployment
+
+1. Go to the Settings tab of your GitHub repo.
+2. On the left-hand sidebar, in the Code and automation section, select Pages.
+3. Make sure:
+    - Source is set to 'Deploy from Branch'.
+    - Main branch is selected.
+    - Folder is set to / (root).
+4. Under Branch, click Save.
+5. Go back to the Code tab. Wait a few minutes for the build to finish and refresh your repo.
+6. On the right-hand side, in the Environments section, click on 'github-pages'.
+7. Click View deployment to see the live site. 
+
+Deployment steps from the [Code Institute](https://codeinstitute.net/)
+
+Live link for this project can be found [here](https://johnnysavageni.github.io/football_quiz//)
